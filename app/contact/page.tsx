@@ -67,68 +67,7 @@ export default function ContactPage() {
       </section>
 
       <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
-            <Card>
-              <CardHeader>
-                <div className="flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full mb-4">
-                  <MapPin className="h-6 w-6 text-orange-600" />
-                </div>
-                <CardTitle>Visit Us</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600">
-                  Main Square, McLeod Ganj<br />
-                  Dharamshala, Himachal Pradesh<br />
-                  176219, India
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full mb-4">
-                  <Phone className="h-6 w-6 text-orange-600" />
-                </div>
-                <CardTitle>Call Us</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600 mb-2">
-                  <a href="tel:+919876543210" className="hover:text-orange-600">
-                    +91 98765 43210
-                  </a>
-                </p>
-                <p className="text-gray-600">
-                  <a href="tel:+919876543211" className="hover:text-orange-600">
-                    +91 98765 43211
-                  </a>
-                </p>
-                <p className="text-sm text-gray-500 mt-2">Mon - Sun: 8 AM - 8 PM</p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full mb-4">
-                  <Mail className="h-6 w-6 text-orange-600" />
-                </div>
-                <CardTitle>Email Us</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600 mb-2">
-                  <a href="mailto:contact@dharamshalaadventure.com" className="hover:text-orange-600">
-                    contact@dharamshalaadventure.com
-                  </a>
-                </p>
-                <p className="text-gray-600">
-                  <a href="mailto:bookings@dharamshalaadventure.com" className="hover:text-orange-600">
-                    bookings@dharamshalaadventure.com
-                  </a>
-                </p>
-                <p className="text-sm text-gray-500 mt-2">We'll respond within 24 hours</p>
-              </CardContent>
-            </Card>
-          </div>
+        <div className="container mx-auto px-4">          
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
@@ -205,9 +144,73 @@ export default function ContactPage() {
                 </Button>
               </form>
             </div>
+             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+            <Card>
+              <CardHeader>
+                <div className="flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full mb-4">
+                  <MapPin className="h-6 w-6 text-orange-600" />
+                </div>
+                <CardTitle>Visit Us</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600">
+                  Main Square, McLeod Ganj<br />
+                  Dharamshala, Himachal Pradesh<br />
+                  176219, India
+                </p>
+              </CardContent>
+            </Card>
 
-            <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
+            <Card>
+              <CardHeader>
+                <div className="flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full mb-4">
+                  <Phone className="h-6 w-6 text-orange-600" />
+                </div>
+                <CardTitle>Call Us</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 mb-2">
+                  <a href="tel:+919876543210" className="hover:text-orange-600">
+                    +91 98765 43210
+                  </a>
+                </p>
+                <p className="text-gray-600">
+                  <a href="tel:+919876543211" className="hover:text-orange-600">
+                    +91 98765 43211
+                  </a>
+                </p>
+                <p className="text-sm text-gray-500 mt-2">Mon - Sun: 8 AM - 8 PM</p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <div className="flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full mb-4">
+                  <Mail className="h-6 w-6 text-orange-600" />
+                </div>
+                <CardTitle>Email Us</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 mb-2">
+                  <a href="mailto:contact@dharamshalaadventure.com" className="hover:text-orange-600">
+                    contact@dharamshalaadventure.com
+                  </a>
+                </p>
+                <p className="text-gray-600">
+                  <a href="mailto:bookings@dharamshalaadventure.com" className="hover:text-orange-600">
+                    bookings@dharamshalaadventure.com
+                  </a>
+                </p>
+                <p className="text-sm text-gray-500 mt-2">We'll respond within 24 hours</p>
+              </CardContent>
+            </Card>
+          </div>           
+          </div>
+        </div>
+      </section>
+      <section className="py-16 ">
+         <div className='w-full max-w-6xl m-auto'>
+              <h2 className="text-3xl text-center font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
               <div className="space-y-6">
                 <Card>
                   <CardHeader>
@@ -254,8 +257,6 @@ export default function ContactPage() {
                 </Card>
               </div>
             </div>
-          </div>
-        </div>
       </section>
 
       <section className="py-16 bg-gray-50">
