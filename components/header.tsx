@@ -35,9 +35,7 @@ export function Header() {
                 {item.label}
               </Link>
             ))}
-            <Button asChild className="bg-orange-600 hover:bg-orange-700">
-              <Link href="/contact">Book Now</Link>
-            </Button>
+            
           </nav>
 
           <button
