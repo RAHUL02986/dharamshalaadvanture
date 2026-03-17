@@ -7,11 +7,8 @@ export function Footer() {
       <div className="container mx-auto px-4 pt-12 pb-2">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <Mountain className="h-8 w-8 text-orange-600" />
-              <span className="text-xl font-bold text-white">
-                Dharamshala Adventure
-              </span>
+            <div className="mb-4">            
+            <img src="/images/header-logo.png" alt="site-logo" className='max-w-[180px] max-h-[130px]' />          
             </div>
             <p className="text-sm text-gray-400 mb-4">
               Your gateway to unforgettable adventures in the beautiful Himalayas of Dharamshala, Himachal Pradesh.
