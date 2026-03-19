@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import { Toaster } from 'sonner';
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -48,6 +48,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header />
+        <SpeedInsights />
         <main className="min-h-screen">{children}</main>
         <Footer />
         <Toaster position="top-right" richColors />
